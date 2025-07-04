@@ -1,12 +1,41 @@
-# React + Vite
+#  React Music Player App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive music streaming UI built using **React + TypeScript**, styled with **Tailwind CSS**. Inspired by Spotify's design, this app includes features like album display, song preview, and a fully functional audio player with play/pause, next/prev, and seek capabilities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+-  **Interactive Music Player**
+   --
+  - Play, pause, seek, and switch songs
+  - Real-time progress bar
+  - Displays current and total time
+    
+-  **Albums & Songs**
+   --
+  - Displays a scrollable list of albums and songs
+  - Dynamically loads song data from a central store
+  - Album-specific song list using React Router
+    
+-  **Responsive Design**
+   --
+  - Mobile, tablet, and desktop optimized layout
+  - Player adapts to screen size
+    
+-  **Routing**
+   --
+  - Uses `react-router-dom` for navigating between homepage and album detail pages
+    
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Context API** (for global music player state)
+
+
+
+
+
